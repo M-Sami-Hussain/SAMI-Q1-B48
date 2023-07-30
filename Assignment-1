@@ -1,0 +1,45 @@
+const ps = require("prompt-sync") ();
+
+//=================Grading System====================================
+console.log("Enter the marks of all subjects ");
+let maths = +ps("Enter your maths marks ");
+let urdu  = +ps("Enter your urdu  mark  ");
+let eng  = +ps("Enter your eng  mark  ");
+let pkst = +ps("Enter your pk.st  mark  ");
+let isl  = +ps("Enter your isl  mark  ");
+let chem  = +ps("Enter your chem  mark  ");
+
+function la(maths:number,urdu:number,eng:number,pkst:number,isl:number,chem:number) {
+return maths+eng+urdu+pkst+isl+chem
+}
+let total : number = la(maths,urdu,eng,pkst,isl,chem);
+console.log(total);
+
+if (total>=550 && total<=600){
+    console.log("your grade is A+")
+}
+ else if (total>=500 && total<550){
+    console.log("your grade is A")
+}
+else if (total>=450 && total<500){
+    console.log("your grade is B+")
+}
+else if (total>=400 && total<450){
+    console.log("your grade is B")
+}
+else if (total>=350 && total<400){
+    console.log("your grade is C")
+}
+else if (total>=300 && total<350){
+    console.log("your grade is D")
+}
+else if (total>=300 && total<350){
+    console.log("your grade is E")
+}
+else if (total>=350 && total<400){
+    console.log("YOU HAVE FAILED (F)")
+}
+else{
+    console.log("You are suspended and lalu")
+}
+//==============================THE END===================================================
