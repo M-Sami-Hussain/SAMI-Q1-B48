@@ -1,0 +1,2 @@
+var personname = "Ali" ;
+console.log(`Hello !, ${personname} How are you doing.Would you like to learn some python today.`);
