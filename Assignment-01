@@ -1,4 +1,4 @@
-const ps = require("prompt-sync") ();
+const ps = require("prompt-sync") (); 
 //=================Grading System====================================
 console.log("Enter the marks of all subjects ");
 let maths = +ps("Enter your maths marks ");
