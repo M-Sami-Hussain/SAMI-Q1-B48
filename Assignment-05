@@ -1,0 +1,11 @@
+//=============================NAME WITH SPACES/WITHOUT===================================
+
+let withwhitespaces = "\n\t M.Sami Hussain\t\n";
+
+console.log(`Namw with whitespace characters:`);
+console.log(withwhitespaces);                    // name with spaces inbetween
+
+console.log("Name without white spaces:");
+console.log(withwhitespaces.trim());            // trim removes any whitesspaces 
+
+//========================================================================================
