@@ -1,0 +1,7 @@
+//==========================Favourite Number=================================
+
+const ps = require("prompt-sync") ();                           // adding the library for prompt-sync.
+let favouritenumber = ps (`Enter your favourite number:`);      //Asking for usser to enter a value.
+console.log(`Your favourite number is `,favouritenumber);       //Using console.log to print a message .
+
+//===========================================================================
