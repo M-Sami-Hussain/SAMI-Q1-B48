@@ -1,0 +1,7 @@
+//================================Message to friends=======================================
+let names =[ "Soban" , "Rafay" , "Safi" , "Hafi"];
+
+function a(b:any){
+    console.log(`Hello ${b}, How are you`);
+} 
+names.forEach(a);
