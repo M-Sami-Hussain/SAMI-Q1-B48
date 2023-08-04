@@ -1,0 +1,15 @@
+//=============================NAME OF MY FRIENDS===========================
+let names =[ "Soban" , "Rafay" , "Safi" , "Hafi"];
+
+console.log("These are names of my friends")
+console.log(names.join("\n"));
+
+//==============================OR===========================================
+
+console.log("These are names of my friends:");
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);
+console.log(names[3]);
+
+//============================================================================
