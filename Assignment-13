@@ -1,0 +1,6 @@
+//================================Invitation To Friends=======================================
+let guests =[ "Soban" , "Rafay" , "Safi" , "Hafi"];
+function message(guests:string){
+    console.log(`Hi,${guests}.You are invited to have dinner.`);
+}
+guests.forEach(message);
