@@ -1,0 +1,5 @@
+let transportation = [`Rolls Royce`,`Harley`,`Mercedez`];
+function print (message : any){
+    console.log(`I would like to have my own ${message}`);
+}
+transportation.forEach(print);
