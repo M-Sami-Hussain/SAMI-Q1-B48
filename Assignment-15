@@ -1,0 +1,11 @@
+
+console.log("Invitation :")
+let guests = ["Warad","Hafi","Danial","Sami"];
+function message(name:string) {
+  console.log(`Hello ${name}, you are invited for dinner tomorrow.`);
+}
+guests.forEach(message);
+console.log("Warad could'nt make it");
+guests.shift();
+guests.unshift("Shahzaib");
+guests.forEach(message);
