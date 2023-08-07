@@ -1,0 +1,13 @@
+let arry = ["aus","la","ind","bang","pak"];
+
+console.log(arry);
+
+arry.sort()
+console.log("\nArray in alphabetical order\n", arry);
+
+arry.sort((a,b) => b.localeCompare(a));
+console.log("\n AArray in reverse order\n",arry);
+
+arry.sort((a,b) => a.localeCompare(b));
+console.log("\nAgain reversing order into its original form\n",arry);
+
