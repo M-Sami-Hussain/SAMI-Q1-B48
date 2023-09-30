@@ -6,3 +6,4 @@ console.log ("Following is the list of ccountries")
 
 for ( let n=0; n<=countries.length; n++);
 console.log(countries)
+ 
