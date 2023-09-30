@@ -1,0 +1,8 @@
+//====================================Names of countries================================
+
+let  countries  = ["United States","Canada","United Kingdom","Australia","Germany","France","Japan","Brazil","India","China" ]
+
+console.log ("Following is the list of ccountries")
+
+for ( let n=0; n<=countries.length; n++);
+console.log(countries)
